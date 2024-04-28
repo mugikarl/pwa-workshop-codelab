@@ -49,5 +49,31 @@
     "theme_color": "#282c34",
     "background_color": "#282c34",
     "description": "A PWA markdown editor",
-    "categories": ["productivity", "utilities"]
+    "categories": ["productivity", "utilities"],
+    "shortcuts": [
+      {
+        "name": "Start in dark mode",
+        "short_name": "Dark mode",
+        "description": "Start PWA Edit in dark mode",
+        "url": "/?source=pwa&mode=night",
+        "icons": [
+          {
+            "src": "/images/logo.svg",
+            "sizes": "150x150"
+          }
+        ]
+      },
+      {
+        "name": "Start in light mode",
+        "short_name": "Light mode",
+        "description": "Start PWA Edit in light mode",
+        "url": "/?source=pwa&mode=day",
+        "icons": [
+          {
+            "src": "/images/logo.svg",
+            "sizes": "150x150"
+          }
+        ]
+      }
+    ]
   }

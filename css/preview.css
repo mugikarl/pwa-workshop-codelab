@@ -13,16 +13,45 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-body {
-  margin: 0;
+html, body {
+  margin:0;
   font-family: sans-serif;
 }
-
+.row-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin:20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.column-container-left img{
+  border-radius: 50%;
+}
+.column-container-left{
+  background-color: #242B64;
+  text-align: center;
+  color:#ffffff;
+  padding:20px;
+  display:flex;
+  flex:1;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.column-container:last-child{
+  border-right:none;
+}
+.column-container-right{
+  padding:20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .preview {
   max-width: 80ch;
   margin: 0 auto;
 }
-
 img, video {
   max-width: 100%;
   height: auto;
